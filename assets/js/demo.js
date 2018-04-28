@@ -168,7 +168,7 @@ $().ready(function() {
 
     //Bar chart json work:
 
-    var quizData = {"A":3,"B":1,"C":1, "D": 0};
+    var quizData = {"A":2,"B":1,"C":1, "D": 0};
     var allBars = document.querySelectorAll('.bar');
 
     for(var i = 0; i < allBars.length; i++) {

@@ -37,7 +37,7 @@
 
 .bar-graph li {
     display: block;
-    padding: 1.5625rem 0;
+    //padding: 1.5625rem 0;
     position: relative;
     text-align: center;
     vertical-align: bottom;

@@ -146,7 +146,8 @@ $().ready(function() {
 
     var students = document.querySelectorAll('.students-filter input');
 
-    var st1 = [87, 85, 90, 92, 54, 86, 98, 65, 52, 88, 46, 44];
+    var st1 = [87, 85, 90, 92, 54, 86, 98, 65, 52, 88, 46, 44, 75, 100];
+    //var st1 = [0, 0 ,0 ,100 ,100 ,90,40,70];
     var st2 = [67, 52, 13, 40, 87, 35, 435, 437, 539, 42, 44, 47];
     var st3 = [03, 13, 67, 80, 19, 29, 15, 38, 49, 10, 10, 09];
     var st4 = [87, 85, 90, 92, 54, 86, 98, 65, 52, 88, 46, 44];
@@ -165,6 +166,28 @@ $().ready(function() {
     ///////////////
 
 
+    //Bar chart json work:
+
+    var quizData = {"A":3,"B":1,"C":1, "D": 0};
+    var allBars = document.querySelectorAll('.bar');
+
+    for(var i = 0; i < allBars.length; i++) {
+        if(i==0) {
+            allBars[i].style.height = (quizData["A"] * 10 ) + "%";
+        }
+        if(i==1) {
+            allBars[i].style.height = (quizData["B"] * 10) + "%";
+        }
+        if(i==2) {
+            allBars[i].style.height = (quizData["C"] * 10) + "%";
+        }
+        if(i==3) {
+            allBars[i].style.height = (quizData["D"] * 10) + "%";
+        }
+    }
+
+
+    ///////
 
     var optionsSales = {
         lineSmooth: false,
@@ -554,5 +577,7 @@ $().ready(function() {
 
 
     }
+
+
 
 });

@@ -50,6 +50,22 @@
     flex: 1 1 15%;
 }
 
+.chip {
+    display: inherit;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+.chip img {
+    float: right;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 .bar-graph .bar-graph-axis {
     -webkit-flex: 1 1 8%;
     -ms-flex: 1 1 8%;

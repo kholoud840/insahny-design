@@ -136,7 +136,7 @@ h1 .subtitle {
 }
 
 .text-info, .text-info:hover {
-    color: #1DC7EA !important;
+    color: #1dea6d !important;
 }
 
 .text-success, .text-success:hover {
@@ -2608,19 +2608,19 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .ct-series-a .ct-point, .ct-series-a .ct-line, .ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {
-    stroke: #1DC7EA;
+    stroke: #CB48B7;
 }
 
 .ct-series-a .ct-slice-pie, .ct-series-a .ct-area {
-    fill: #1DC7EA;
+    fill: #CB48B7;
 }
 
 .ct-series-b .ct-point, .ct-series-b .ct-line, .ct-series-b .ct-bar, .ct-series-b .ct-slice-donut {
-    stroke: #FB404B;
+    stroke: #337357;
 }
 
 .ct-series-b .ct-slice-pie, .ct-series-b .ct-area {
-    fill: #FB404B;
+    fill: #337357;
 }
 
 .ct-series-c .ct-point, .ct-series-c .ct-line, .ct-series-c .ct-bar, .ct-series-c .ct-slice-donut {
@@ -2632,19 +2632,19 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .ct-series-d .ct-point, .ct-series-d .ct-line, .ct-series-d .ct-bar, .ct-series-d .ct-slice-donut {
-    stroke: #9368E9;
+    stroke: #6D9F71;
 }
 
 .ct-series-d .ct-slice-pie, .ct-series-d .ct-area {
-    fill: #9368E9;
+    fill: #6D9F71;
 }
 
 .ct-series-e .ct-point, .ct-series-e .ct-line, .ct-series-e .ct-bar, .ct-series-e .ct-slice-donut {
-    stroke: #87CB16;
+    stroke: #6D9F71;
 }
 
 .ct-series-e .ct-slice-pie, .ct-series-e .ct-area {
-    fill: #87CB16;
+    fill: #6D9F71;
 }
 
 .ct-series-f .ct-point, .ct-series-f .ct-line, .ct-series-f .ct-bar, .ct-series-f .ct-slice-donut {
@@ -2704,11 +2704,11 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .ct-series-m .ct-point, .ct-series-m .ct-line, .ct-series-m .ct-bar, .ct-series-m .ct-slice-donut {
-    stroke: #1769ff;
+    stroke: #337357;
 }
 
 .ct-series-m .ct-slice-pie, .ct-series-m .ct-area {
-    fill: #1769ff;
+    fill: #337357;
 }
 
 .ct-series-n .ct-point, .ct-series-n .ct-line, .ct-series-n .ct-bar, .ct-series-n .ct-slice-donut {
@@ -2720,11 +2720,11 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .ct-series-o .ct-point, .ct-series-o .ct-line, .ct-series-o .ct-bar, .ct-series-o .ct-slice-donut {
-    stroke: #a748ca;
+    stroke: #337357;
 }
 
 .ct-series-o .ct-slice-pie, .ct-series-o .ct-area {
-    fill: #a748ca;
+    fill: #337357;
 }
 
 .ct-square {

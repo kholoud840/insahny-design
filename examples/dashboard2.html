@@ -36,13 +36,13 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="dashboard.html">
                             <i class="nc-icon nc-chart-pie-35"></i>
-                            <p>Dashboard</p>
+                            <p>Emotion Analysis</p>
                         </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="dashboard2.html">
                             <i class="nc-icon nc-chart-pie-35"></i>
-                            <p>Dashboard2</p>
+                            <p>QR Results</p>
                         </a>
                     </li>
                     <li>
@@ -158,75 +158,138 @@
                 </div>
             </nav>
             <!-- End Navbar -->
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card ">
-                                <div class="card-header ">
-                                    <h4 class="card-title">Email Statistics</h4>
-                                    <p class="card-category">Last Campaign Performance</p>
-                                </div>
-                                <div class="card-body ">
-                                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
-                                </div>
-                                <div class="card-footer ">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Bounce
-                                        <i class="fa fa-circle text-warning"></i> Unsubscribe
+
+
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card ">
+                                    <div class="card-header ">
+                                        <h4 class="card-title" align="center">QR Test Results</h4>
+                                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                            <i class="nc-icon nc-single-copy-04"></i>
+                                            <span class="d-lg-none">Select the Question</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Question 1</a>
+                                            <a class="dropdown-item" href="#">Question 2</a>
+                                            <a class="dropdown-item" href="#">Question 3</a>
+                                            <a class="dropdown-item" href="#">Question 4</a>
+                                        </ul>
+                                        <p class="card-category" align="center">Overall Class Performance</p>
                                     </div>
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
+                                    <div class="card-body">
+                                        <div id="chartPreferences2" class="ct-chart ct-perfect-fourth"></div>
+                                        <i class="fa fa-circle text-info"></i> Correct Answer
+                                        <i class="fa fa-circle text-danger"></i> Wrong Answer
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card ">
+                                    <div class="card-header ">
+                                        <h4 class="card-title" align="center">Student Answers</h4>
+                                        <p class="card-category" align="center">Correct Answer: B</p>
+                                    </div>
+                                    <div class="card-body ">
+                                        <ul class="bar-graph">
+                                            <li class="bar-graph-axis">
+                                                <div class="bar-graph-label">Students</div>
+                                                <div class="bar-graph-label">30</div>
+                                                <div class="bar-graph-label">25</div>
+                                                <div class="bar-graph-label">20</div>
+                                                <div class="bar-graph-label">15</div>
+                                                <div class="bar-graph-label">10</div>
+                                                <div class="bar-graph-label">5</div>
+                                            </li>
+                                            <li class="bar primary" style="height: 12%;" title="95">
+                                                <div class="description">A</div>
+                                            </li>
+                                            <li class="bar secondary" style="height: 63%;" title="90">
+                                                <div class="description">B</div>
+                                            </li>
+                                            <li class="bar success" style="height: 18%;" title="80">
+                                                <div class="description">C</div>
+                                            </li>
+                                            <li class="bar warning" style="height: 7%;" title="75">
+                                                <div class="description">D</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                //
+                                <!--  <div class="container-fluid">
+                                      <div class="row">
+                                          <div class="col-md-4">
+                                              <div class="card ">
+                                                  <div class="card-header ">
+                                                      <h4 class="card-title">Email Statistics</h4>
+                                                      <p class="card-category">Last Campaign Performance</p>
+                                                  </div>
+                                                  <div class="card-body ">
+                                                      <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+                                                  </div>
+                                                  <div class="card-footer ">
+                                                      <div class="legend">
+                                                          <i class="fa fa-circle text-info"></i> Open
+                                                          <i class="fa fa-circle text-danger"></i> Bounce
+                                                          <i class="fa fa-circle text-warning"></i> Unsubscribe
+                                                      </div>
+                                                      <hr>
+                                                      <div class="stats">
+                                                          <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-8">
+                                              <div class="card ">
+                                                  <div class="card-header ">
+                                                      <h4 class="card-title">2017 Sales</h4>
+                                                      <p class="card-category">All products including Taxes</p>
+                                                  </div>
+                                                  <div class="card-body ">
+                                                      <div id="chartActivity" class="ct-chart"></div>
+                                                  </div>
+                                                  <div class="card-footer ">
+                                                      <div class="legend">
+                                                          <i class="fa fa-circle text-info"></i> Tesla Model S
+                                                          <i class="fa fa-circle text-danger"></i> BMW 5 Series
+                                                      </div>
+                                                      <hr>
+                                                      <div class="stats">
+                                                          <i class="fa fa-check"></i> Data information certified
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                         <!-- <div class="col-md-8">
+                                              <div class="card ">
+                                                  <div class="card-header ">
+                                                      <h4 class="card-title">Student(s) Behavior</h4>
+                                                      <p class="card-category">24 Hours performance</p>
+                                                  </div>
+                                                  <div class="card-body ">
+                                                      <div id="chartHours" class="ct-chart"></div>
+                                                  </div>
+                                                  <div class="card-footer ">
+                                                      <div class="legend">
+                                                          <i class="fa fa-circle text-info"></i> Open
+                                                          <i class="fa fa-circle text-danger"></i> Click
+                                                          <i class="fa fa-circle text-warning"></i> Click Second Time
+                                                      </div>
+                                                      <hr>
+                                                      <div class="stats">
+                                                          <i class="fa fa-history"></i> Updated 3 minutes ago
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>-->
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card ">
-                                <div class="card-header ">
-                                    <h4 class="card-title">2017 Sales</h4>
-                                    <p class="card-category">All products including Taxes</p>
-                                </div>
-                                <div class="card-body ">
-                                    <div id="chartActivity" class="ct-chart"></div>
-                                </div>
-                                <div class="card-footer ">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Tesla Model S
-                                        <i class="fa fa-circle text-danger"></i> BMW 5 Series
-                                    </div>
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-check"></i> Data information certified
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       <!-- <div class="col-md-8">
-                            <div class="card ">
-                                <div class="card-header ">
-                                    <h4 class="card-title">Users Behavior</h4>
-                                    <p class="card-category">24 Hours performance</p>
-                                </div>
-                                <div class="card-body ">
-                                    <div id="chartHours" class="ct-chart"></div>
-                                </div>
-                                <div class="card-footer ">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Click
-                                        <i class="fa fa-circle text-warning"></i> Click Second Time
-                                    </div>
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-history"></i> Updated 3 minutes ago
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
-                    </div>
+
+
                     <div class="row">
                        <!-- <div class="col-md-6">
                             <div class="card ">

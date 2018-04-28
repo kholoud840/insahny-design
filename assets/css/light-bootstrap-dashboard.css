@@ -188,7 +188,7 @@ h1 .subtitle {
 
 .text-info,
 .text-info:hover {
-    color: #1DC7EA !important;
+    color: #5aea9c !important;
 }
 
 .text-success,
@@ -203,7 +203,7 @@ h1 .subtitle {
 
 .text-danger,
 .text-danger:hover {
-    color: #FF4A55 !important;
+    color: #ed6efb !important;
 }
 
 /*     General overwrite     */
@@ -304,7 +304,7 @@ input:focus {
 }
 
 .page-header .filter:after {
-    background: transparent linear-gradient(to bottom, #9368e9 0%, #943bea 100%) repeat scroll 0 0/150% 150%;
+    background: transparent linear-gradient(to bottom, #337357 0%, #337357 100%) repeat scroll 0 0/150% 150%;
     content: "";
     display: block;
     height: 100%;
@@ -603,13 +603,13 @@ body>.navbar-collapse:before {
 
 .sidebar:after,
 body>.navbar-collapse:after {
-    background: #9368E9;
-    background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
-    background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -o-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
+    background: #2E2D4D;
+    background: -moz-linear-gradient(top, #2E2D4D 0%, #2E2D4D 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2E2D4D), color-stop(100%, #2E2D4D));
+    background: -webkit-linear-gradient(top, #2E2D4D 0%, #2E2D4D 100%);
+    background: -o-linear-gradient(top, #2E2D4D 0%, #2E2D4D 100%);
+    background: -ms-linear-gradient(top, #2E2D4D 0%, #2E2D4D 100%);
+    background: linear-gradient(to bottom, #2E2D4D 0%, #2E2D4D 100%);
     background-size: 150% 150%;
     z-index: 3;
     opacity: 1;
@@ -2327,7 +2327,7 @@ fieldset[disabled] .form-control {
 }
 
 .navbar-ct-green {
-    background-color: #a1e82c;
+    background-color: #2E2D4D;
 }
 
 .navbar-ct-orange {
@@ -3254,24 +3254,24 @@ Copyright (c) 2015 Daniel Eden
 .ct-series-a .ct-line,
 .ct-series-a .ct-bar,
 .ct-series-a .ct-slice-donut {
-    stroke: #1DC7EA;
+    stroke: #337357;
 }
 
 .ct-series-a .ct-slice-pie,
 .ct-series-a .ct-area {
-    fill: #1DC7EA;
+    fill: #337357;
 }
 
 .ct-series-b .ct-point,
 .ct-series-b .ct-line,
 .ct-series-b .ct-bar,
 .ct-series-b .ct-slice-donut {
-    stroke: #FB404B;
+    stroke: #CB48B7;
 }
 
 .ct-series-b .ct-slice-pie,
 .ct-series-b .ct-area {
-    fill: #FB404B;
+    fill: #CB48B7;
 }
 
 .ct-series-c .ct-point,
@@ -3290,24 +3290,24 @@ Copyright (c) 2015 Daniel Eden
 .ct-series-d .ct-line,
 .ct-series-d .ct-bar,
 .ct-series-d .ct-slice-donut {
-    stroke: #9368E9;
+    stroke: #6D9F71;
 }
 
 .ct-series-d .ct-slice-pie,
 .ct-series-d .ct-area {
-    fill: #9368E9;
+    fill: #6D9F71;
 }
 
 .ct-series-e .ct-point,
 .ct-series-e .ct-line,
 .ct-series-e .ct-bar,
 .ct-series-e .ct-slice-donut {
-    stroke: #87CB16;
+    stroke: #2E2D4D;
 }
 
 .ct-series-e .ct-slice-pie,
 .ct-series-e .ct-area {
-    fill: #87CB16;
+    fill: #2E2D4D;
 }
 
 .ct-series-f .ct-point,
